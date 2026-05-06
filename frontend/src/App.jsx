@@ -12,7 +12,7 @@ export default function App() {
     <ThemeProvider>
       <AuthProvider>
         <BrowserRouter>
-          {/* <Routes>
+          <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route
@@ -31,9 +31,7 @@ export default function App() {
                 </ProtectedRoute>
               }
             />
-          </Routes> */}
-          <Home />
-          <Dashboard />
+          </Routes>
         </BrowserRouter>
       </AuthProvider>
     </ThemeProvider>
