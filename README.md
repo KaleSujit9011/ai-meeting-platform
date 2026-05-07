@@ -17,7 +17,7 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 
 AI Meeting Platform is a comprehensive solution for intelligent meeting management and summarization. Powered by AI, the platform enables users to upload, transcribe, analyze, and summarize meetings with natural language processing. Users can generate insights, export reports, and manage meeting data seamlessly through an intuitive web interface.
 
@@ -83,22 +83,22 @@ AI Meeting Platform is a comprehensive solution for intelligent meeting manageme
 
 ---
 
-## ✨ Features
+##  Features
 
-- ✅ **User Authentication** - Register and login with secure JWT tokens
-- ✅ **Meeting Upload** - Support for audio file uploads (MP3, WAV, etc.)
-- ✅ **Automatic Transcription** - Convert audio to text using Whisper API
-- ✅ **AI-Powered Summaries** - Generate concise meeting summaries with Groq LLM
-- ✅ **Meeting Dashboard** - View all meetings with filtering and search
-- ✅ **Export to Multiple Formats** - Download summaries as PDF, TXT, or JSON
-- ✅ **Email Integration** - Send summaries directly to email
-- ✅ **Responsive Design** - Mobile-friendly interface with Tailwind CSS
-- ✅ **Real-time Status Updates** - Loading states and toast notifications
-- ✅ **Error Handling** - Comprehensive error messages and user feedback
+-  **User Authentication** - Register and login with secure JWT tokens
+-  **Meeting Upload** - Support for audio file uploads (MP3, WAV, etc.)
+-  **Automatic Transcription** - Convert audio to text using Whisper API
+-  **AI-Powered Summaries** - Generate concise meeting summaries with Groq LLM
+-  **Meeting Dashboard** - View all meetings with filtering and search
+-  **Export to Multiple Formats** - Download summaries as PDF, TXT, or JSON
+-  **Email Integration** - Send summaries directly to email
+-  **Responsive Design** - Mobile-friendly interface with Tailwind CSS
+-  **Real-time Status Updates** - Loading states and toast notifications
+-  **Error Handling** - Comprehensive error messages and user feedback
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -115,7 +115,7 @@ Before you begin, ensure you have the following installed:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-meeting-platform.git
+git clone https://github.com/KaleSujit9011/ai-meeting-platform.git
 cd ai-meeting-platform
 ```
 
@@ -207,14 +207,14 @@ npm start  # Set NODE_ENV=production in .env
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### System Architecture Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    CLIENT LAYER                             │
-│  (React + Vite + Tailwind CSS)                             │
+│  (React + Vite + Tailwind CSS)                              │
 │  - Dashboard                                                │
 │  - Upload Interface                                         │
 │  - Summary Viewer                                           │
@@ -225,7 +225,7 @@ npm start  # Set NODE_ENV=production in .env
 ┌────────────────────▼────────────────────────────────────────┐
 │                    API LAYER                                │
 │  (Express.js Server)                                        │
-│  - Auth Routes (Register/Login)                            │
+│  - Auth Routes (Register/Login)                             │
 │  - Meeting Routes (CRUD)                                    │
 │  - Upload Routes (File handling)                            │
 │  - Export Routes (PDF/JSON generation)                      │
@@ -236,7 +236,7 @@ npm start  # Set NODE_ENV=production in .env
 ┌───────▼──┐  ┌──────▼──┐  ┌─────▼────┐
 │ Groq LLM │  │ Whisper  │  │ Resend   │
 │ (Summary)│  │(Speech)  │  │ (Email)  │
-└───────────┘  └──────────┘  └──────────┘
+└──────────┘  └──────────┘  └──────────┘
         │            │            │
         └────────────┼────────────┘
                      │
@@ -364,7 +364,7 @@ Content-Type: application/json
 
 ---
 
-## 📦 Deployment
+##  Deployment
 
 ### Frontend Deployment (Vercel)
 
@@ -424,7 +424,7 @@ Content-Type: application/json
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please follow these guidelines:
 
@@ -456,30 +456,21 @@ We welcome contributions! Please follow these guidelines:
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the **MIT License** - see the LICENSE file for details.
 
-You are free to:
-- ✅ Use this project for personal and commercial purposes
-- ✅ Modify and distribute the code
-- ✅ Include the software in proprietary applications
-
-Under the condition that:
-- ⚠️ The original license and copyright notice are included
-- ⚠️ Changes made are disclosed
-
 ---
 
-## 📞 Support & Contact
+##  Support & Contact
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/ai-meeting-platform/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/ai-meeting-platform/discussions)
+- **Issues**: [GitHub Issues](https://github.com/KaleSujit9011/ai-meeting-platform/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/KaleSujit9011/ai-meeting-platform/discussions)
 - **Email**: your-email@example.com
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Groq](https://groq.com/) for powerful LLM API
 - [OpenAI](https://openai.com/) for Whisper transcription
