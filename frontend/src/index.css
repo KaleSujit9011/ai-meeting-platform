@@ -11,12 +11,6 @@
   --shadow-glow: 0 0 40px rgba(102, 126, 234, 0.15);
 }
 
-/* ─── Base ─── */
-* {
-  margin: 0;
-  padding: 0.25;
-  box-sizing: border-box;
-}
 
 :root {
   --bg-color: #f8fafc;
@@ -160,6 +154,7 @@ div {
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  padding: 2rem;
 }
 
 .glass-card:hover {

@@ -33,7 +33,7 @@ export default function Login() {
         {/* Background Glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-indigo-500/20 blur-[120px] rounded-full pointer-events-none"></div>
 
-        <div className="glass-card w-full max-w-md p-8 sm:p-12 relative z-10 animate-fade-in-up">
+        <div className="glass-card w-full max-w-md relative z-10 animate-fade-in-up">
           <div className="text-center mb-8">
             <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center mx-auto mb-4 shadow-lg shadow-indigo-500/25">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
